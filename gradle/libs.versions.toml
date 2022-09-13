@@ -1,0 +1,25 @@
+metadata.format.version = "1.1"
+
+[versions]
+
+minestom = "fc90fe8852"
+# Visuals
+minimessage = "4.11.0"
+# TOML config
+toml = "v1.2.2"
+
+# Gradle plugins
+shadowJar = "7.0.0"
+
+[libraries]
+
+minestom = { group = "com.github.Minestom", name = "Minestom", version.ref = "minestom" }
+# Visuals
+minimessage = { group = "net.kyori", name = "adventure-text-minimessage", version.ref = "minimessage" }
+# TOML config
+toml = { group = "com.github.TheElectronWill", name = "TOML-javalib", version.ref = "toml" }
+
+
+[plugins]
+
+shadowJar = { id = "com.github.johnrengelman.shadow", version.ref = "shadowJar" }

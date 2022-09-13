@@ -1,0 +1,5 @@
+{
+  "entrypoint": "com.github.selfcrafted.compass.CompassExtension",
+  "name": "${Name}",
+  "version": "${version}"
+}
