@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.shadowJar)
+    alias(libs.plugins.licenser)
     java
 }
 
@@ -47,4 +48,12 @@ tasks {
 java {
     sourceCompatibility = JavaVersion.VERSION_17
     targetCompatibility = JavaVersion.VERSION_17
+}
+
+license {
+    setHeader(file("HEADER.txt"))
+    properties {
+        set("name", "${rootProject.name} contributors")
+        set("year", "2022")
+    }
 }

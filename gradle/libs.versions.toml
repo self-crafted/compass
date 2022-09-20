@@ -10,6 +10,7 @@ toml = "v1.2.2"
 
 # Gradle plugins
 shadowJar = "7.0.0"
+licenser = "0.6.1"
 
 [libraries]
 
@@ -23,3 +24,4 @@ toml = { group = "com.github.TheElectronWill", name = "TOML-javalib", version.re
 [plugins]
 
 shadowJar = { id = "com.github.johnrengelman.shadow", version.ref = "shadowJar" }
+licenser = { id = "org.cadixdev.licenser", version.ref = "licenser" }
