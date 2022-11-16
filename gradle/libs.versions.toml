@@ -2,7 +2,7 @@ metadata.format.version = "1.1"
 
 [versions]
 
-minestom = "fc90fe8852"
+minestom = "1a013728fd"
 # Visuals
 minimessage = "4.11.0"
 # TOML config
