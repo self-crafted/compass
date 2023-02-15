@@ -47,7 +47,7 @@ server = "lobby"
 
 ## Maintainers
 
-[@off-by-0point5](https://github.com/off-by-0point5)
+[@offby0point5](https://github.com/offby0point5)
 
 ## Contributing
 
